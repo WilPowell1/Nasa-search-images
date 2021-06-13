@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.search-results {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 0 0 80px;
+}
+
+.stock-image {
+    padding: 0.2%;
+    margin: 0.5%;
+    width: 20%;
+    height: 3%;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.no-results {
+    text-align: center;
+}
